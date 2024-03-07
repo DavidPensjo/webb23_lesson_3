@@ -6,9 +6,9 @@ const express = require("express")
 const app = express();
 
 let users = [
-  { id: 1, name: "Carl" },
-  { id: 2, name: "Markus" },
-  { id: 3, name: "Tilda" },
+  { id: 1, name: "Carl", course: "WEBB23" },
+  { id: 2, name: "Markus", course: "WEBB23" },
+  { id: 3, name: "Tilda", course: "WEBB22" },
 ];
 
 const getUserIdFormUsers = () => {
@@ -92,6 +92,24 @@ app.put("/api/v1/users/:id", (req, res) => {
 
     res.json(users)
 })
+
+
+// DELETE user - delete user based on id
+app.delete("/api/v1/users/:id", (req, res) => { 
+    const id = req.params.id;
+    const user = users.find(u => u.id == id);
+
+    if (!user) {
+        return res.status(404).json({
+            message: "User not found"
+        })
+    }
+
+    users = users.filter(u => user.id !== u.id)
+    res.status(204).json()
+})
+//! 204 - if deleted
+//! 404 - if not found
 
 
 
