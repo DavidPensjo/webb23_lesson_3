@@ -29,7 +29,21 @@ app.use(express.json())
 
 // GET: users - get all users
 app.get("/api/v1/users", (req, res) => {
-    res.json(users)
+    const { course, search } = req.query
+    
+    let response = [...users];
+
+    if (course) { 
+        response = response.filter(u => u.course === course)
+    }
+    if (search) {
+        response = response.filter(u =>
+            u.name.toLowerCase()
+                .includes(search.toLowerCase()))
+    }
+
+    console.log("Request", req)
+    res.json(response)
 })
 
 //POST: users - add new user
@@ -108,10 +122,6 @@ app.delete("/api/v1/users/:id", (req, res) => {
     users = users.filter(u => user.id !== u.id)
     res.status(204).json()
 })
-//! 204 - if deleted
-//! 404 - if not found
-
-
 
 
 app.listen(3000, () => {
