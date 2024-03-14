@@ -1,0 +1,54 @@
+{
+  "Authors": [
+    {
+      "name": "Harper Lee",
+      "id": "AuthorID1",
+      "yearOfBirth": "1926"
+    },
+    {
+      "name": "George Orwell",
+      "id": "AuthorID2",
+      "yearOfBirth": "1903"
+    },
+    {
+      "name": "Jane Austen",
+      "id": "AuthorID3",
+      "yearOfBirth": "1775"
+    },
+    {
+      "name": "F. Scott Fitzgerald",
+      "id": "AuthorID4",
+      "yearOfBirth": "1896"
+    },
+    {
+      "name": "J. D. Salinger",
+      "id": "AuthorID5",
+      "yearOfBirth": "1919"
+    },
+    {
+      "name": "Herman Melville",
+      "id": "AuthorID6",
+      "yearOfBirth": "1819"
+    },
+    {
+      "name": "J. R. R. Tolkien",
+      "id": "AuthorID7",
+      "yearOfBirth": "1892"
+    },
+    {
+      "name": "J. K. Rowling",
+      "id": "AuthorID8",
+      "yearOfBirth": "1965"
+    },
+    {
+      "name": "Aldous Huxley",
+      "id": "AuthorID9",
+      "yearOfBirth": "1894"
+    },
+    {
+      "name": "Leo Tolstoy",
+      "id": "AuthorID10",
+      "yearOfBirth": "1828"
+    }
+  ]
+}
