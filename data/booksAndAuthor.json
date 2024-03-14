@@ -1,0 +1,134 @@
+{
+  "Books": [
+    {
+      "title": "The Echoes of Time",
+      "count": 15,
+      "isbn": "978-3-16-148410-0",
+      "id": "BookID1",
+      "description": "A journey through the ages, exploring the mysteries of the past and their impact on the present.",
+      "publishingDate": "2023-05-20",
+      "author": {
+        "name": "Eleanor Voss",
+        "id": "AuthorID1"
+      },
+      "genres": ["Historical Fiction", "Fantasy", "Adventure"]
+    },
+    {
+      "title": "Shadows in the Mist",
+      "count": 20,
+      "isbn": "978-1-4028-9462-6",
+      "id": "BookID2",
+      "description": "A chilling tale of a small town enveloped in a mysterious fog, hiding secrets untold.",
+      "publishingDate": "2023-10-31",
+      "author": {
+        "name": "Marcus Reed",
+        "id": "AuthorID2"
+      },
+      "genres": ["Horror", "Mystery", "Thriller"]
+    },
+    {
+      "title": "Galaxies Beyond",
+      "count": 12,
+      "isbn": "978-0-596-52068-7",
+      "id": "BookID3",
+      "description": "An epic space opera that explores the farthest reaches of the universe, and the heart of human ambition.",
+      "publishingDate": "2023-04-12",
+      "author": {
+        "name": "Sofia Moreno",
+        "id": "AuthorID3"
+      },
+      "genres": ["Science Fiction", "Space Opera"]
+    },
+    {
+      "title": "The Last Magician",
+      "count": 18,
+      "isbn": "978-0-575-08444-8",
+      "id": "BookID4",
+      "description": "In a world where magic is on the brink of extinction, the last magician embarks on a quest to save it.",
+      "publishingDate": "2023-07-07",
+      "author": {
+        "name": "Liam Wong",
+        "id": "AuthorID4"
+      },
+      "genres": ["Fantasy", "Adventure", "Drama"]
+    },
+    {
+      "title": "Beneath the Silent Heavens",
+      "count": 10,
+      "isbn": "978-3-16-148300-4",
+      "id": "BookID5",
+      "description": "A poetic exploration of love and loss, set against the backdrop of a world both familiar and strange.",
+      "publishingDate": "2023-02-14",
+      "author": {
+        "name": "Nora K. Adams",
+        "id": "AuthorID5"
+      },
+      "genres": ["Literary Fiction", "Romance", "Poetry"]
+    },
+    {
+      "title": "Chronicles of the Forgotten Realms",
+      "count": 25,
+      "isbn": "978-1-7810-0881-9",
+      "id": "BookID6",
+      "description": "An anthology of tales from a land where history and myth collide, revealing the truths of the heroes and villains who shaped it.",
+      "publishingDate": "2023-09-15",
+      "author": {
+        "name": "Derek Black",
+        "id": "AuthorID6"
+      },
+      "genres": ["Fantasy", "Mythology", "Anthology"]
+    },
+    {
+      "title": "The Art of the Infinite",
+      "count": 8,
+      "isbn": "978-0-06-093384-5",
+      "id": "BookID7",
+      "description": "A mesmerizing journey into the beauty of mathematics, exploring its most elegant and intricate patterns.",
+      "publishingDate": "2023-11-21",
+      "author": {
+        "name": "Isabel Ruiz",
+        "id": "AuthorID7"
+      },
+      "genres": ["Non-Fiction", "Mathematics", "Science"]
+    },
+    {
+      "title": "Echoes of the Heart",
+      "count": 17,
+      "isbn": "978-0-14-303995-2",
+      "id": "BookID8",
+      "description": "A collection of stories that delve into the complexities of love, life, and the choices that define us.",
+      "publishingDate": "2023-03-08",
+      "author": {
+        "name": "Amelia S. Grant",
+        "id": "AuthorID8"
+      },
+      "genres": ["Romance", "Drama", "Short Stories"]
+    },
+    {
+      "title": "The Quantum Thief",
+      "count": 13,
+      "isbn": "978-0-571-25877-8",
+      "id": "BookID9",
+      "description": "A thrilling heist story set in a future where privacy and anonymity are commodities, and nothing is as it seems.",
+      "publishingDate": "2023-06-01",
+      "author": {
+        "name": "Jean Le Flambeur",
+        "id": "AuthorID9"
+      },
+      "genres": ["Science Fiction", "Thriller", "Cyberpunk"]
+    },
+    {
+      "title": "Whispers of the Ancients",
+      "count": 22,
+      "isbn": "978-1-250-20748-3",
+      "id": "BookID10",
+      "description": "Uncover the secrets of ancient civilizations and their enduring impact on modern culture through a series of enlightening essays.",
+      "publishingDate": "2023-08-19",
+      "author": {
+        "name": "Lucas Chen",
+        "id": "AuthorID10"
+      },
+      "genres": ["History", "Non-Fiction", "Essays"]
+    }
+  ]
+}
