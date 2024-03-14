@@ -1,6 +1,6 @@
 <body>
   <h1>Create New Book</h1>
-  <form id="bookForm" action="submit" method="post">
+  <form id="bookForm" action="/api/books" method="post">
     <label for="title">Title:</label>
     <input type="text" id="title" name="title" required /><br />
 
@@ -23,7 +23,7 @@
     <label for="count">Number of copies (optional):</label>
     <input type="number" id="count" name="count" /><br />
 
-    <button type="submit">Create Book</button>
+    <button type="submit">Add Book</button>
   </form>
   <script src="/static/scripts/formHandler.js"></script>
 </body>

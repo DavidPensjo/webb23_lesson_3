@@ -1,11 +1,9 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  // Logic to handle GET requests to /api/books
-  res.json({ message: "Fetching all books" });
+router.post('/', (req, res) => {
+  console.log(req.body);
+  res.send('Book submitted successfully');
 });
-
-// Add more routes as needed
 
 module.exports = router;
